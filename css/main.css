@@ -1,0 +1,123 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", cursive;
+}
+
+/* Container Controls */
+.row {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Bootstrap Controls*/
+.modal-files {
+  font-family: sans-serif;
+}
+
+/* Image controls */
+.main-image {
+  max-width: 800px;
+  min-width: 210px;
+  width: 100%;
+  margin: 25px auto 0;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 100px;
+  min-width: 100px;
+  margin: 10px 0 0 10px;
+}
+
+.img-responsive {
+  margin-bottom: 15px;
+}
+
+/* Title controls */
+.title {
+  margin-bottom: 10px;
+  border-bottom: 2px lightgrey solid;
+  justify-content: space-between;
+}
+
+/* Content Controls*/
+.content {
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  max-width: 33%;
+  min-width: 210px;
+  flex: 1;
+  box-shadow: 2px 2px 2px 2px #ccc;
+  cursor: pointer;
+}
+
+.content-picture {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.project {
+  padding: 5px;
+}
+
+/* Aside controls */
+.aside {
+  justify-content: flex-start;
+  line-height: 1.4em;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Column widths */
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}

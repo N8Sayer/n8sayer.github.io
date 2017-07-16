@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio: Nate Sargent</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header class="row title">
+        <div class="col-md-3">
+          <img class="logo" src="http://fontmeme.com/permalink/170411/ecd23c92a7057564c624cb7d338893e1.png" alt="pokemon-font">
+        </div>
+        <div class="col-md-9 text-right">
+          <h1>Nate Sargent</h1>
+          <h3>Front-End "Master"</h3>
+        </div>
+      </header>
+
+      <section class="row main-image">
+        <div class="col-md-12">
+          <picture>
+            <source media="(min-width: 706px)"
+                    srcset="images/Snorlax_Birthday_Cake-900large.jpg">
+            <source media="(min-width: 476px)"
+                    srcset="images/Snorlax_Birthday_Cake-705med.jpg">
+            <img class="img-responsive" src="images/Snorlax_Birthday_Cake-475small.jpg" alt="Snorlax on a cake">
+          </picture>
+        </div>
+      </section>
+
+      <section class="row title">
+        <div class="col-md-12">
+          <h2 class="content-title">Gym Badges</h2>
+        </div>
+      </section>
+
+      <footer class="row footer">
+        <section class="col-md-4 content">
+          <a data-target="#boulder" data-toggle="modal">
+            <img src="images/1boulder.png" alt="Boulder Badge" class="content-picture">
+            <p class="project">Boulder</p>
+          </a>
+        </section>
+        <section class="col-md-4 content">
+          <a data-target="#cascade" data-toggle="modal">
+            <img src="images/2cascade.png" alt="Cascade Badge" class="content-picture">
+            <p class="project">Cascade</p>
+          </a>
+        </section>
+        <section class="col-md-4 content">
+          <a data-target="#thunder" data-toggle="modal">
+            <img src="images/3thunder.png" alt="Thunder Badge" class="content-picture">
+            <p class="project">Thunder</p>
+          </a>
+        </section>
+      </footer>
+
+      <aside class="row aside">
+        <div class="col-md-12">
+          <p>
+            <a href="https://www.flickr.com/photos/x1brett/6815060866">“Snorlax Birthday Cake”</a>
+            by
+            <a href="https://www.flickr.com/people/x1brett/">brett jordan</a>
+            is licensed under
+            <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>
+          </p>
+          <p>
+            <a href="http://stegriff.co.uk/content/badges/">“Gym Badges”</a>
+            by
+            <a href="http://stegriff.co.uk/">Stephen Griffiths</a>
+            are licensed under
+            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+          </p>
+        </div>
+      </aside>
+
+      <!-- Modal 1-->
+      <div class="modal fade" id="boulder" tabindex="-1" role="dialog" aria-labelledby="boulder-title" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content modal-files">
+            <div class="modal-header">
+              <h4 class="modal-title" id="boulder-title">Resume</h4>
+            </div>
+            <div class="modal-body">
+              <a href="http://www.natesargent.com/frontend-nanodegree-resume/">
+                <img class="img-responsive center-block" src="images/1boulder.png" alt="Boulder Badge">
+                <p class="modal-text">This was one of my first projects in this class. It's my updated resume too.</p>
+              </a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 2-->
+      <div class="modal fade" id="cascade" tabindex="-1" role="dialog" aria-labelledby="cascade-title" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="cascade-title">Neighborhood Map</h4>
+            </div>
+            <div class="modal-body">
+              <a href="http://www.natesargent.com/Neighborhood-map/">
+                <img class="img-responsive center-block" src="images/2cascade.png" alt="Cascade Badge">
+                <p class="modal-text">This was my second to last project for Udacity. It integrates Google Maps API, Flickr API, and uses Knockout JS for data handling and live updates.</p>
+              </a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 3-->
+      <div class="modal fade" id="thunder" tabindex="-1" role="dialog" aria-labelledby="thunder-title" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="thunder-title">OW Fight</h4>
+            </div>
+            <div class="modal-body">
+              <a href="http://www.natesargent.com/OW-Fight/battle/battle.html">
+                <img class="img-responsive center-block" src="images/3thunder.png" alt="Thunder Badge">
+                <p class="modal-text">This is my project to build a Pokemon-like game using Overwatch pixel sprite attributes and stats.</p>
+              </a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
