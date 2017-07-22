@@ -4,82 +4,95 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio: Nate Sargent</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/responsive.css" rel="stylesheet">
+
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
       <header class="row title">
-        <div class="col-md-3">
-          <img class="logo" src="http://fontmeme.com/permalink/170411/ecd23c92a7057564c624cb7d338893e1.png" alt="pokemon-font">
-        </div>
-        <div class="col-md-9 text-right">
+        <div class="col-md-8">
           <h1>Nate Sargent</h1>
-          <h3>Front-End "Master"</h3>
+        </div>
+        <div class="col-md-4 text-right">
+          <h3>Front-End Web Developer</h3>
         </div>
       </header>
 
       <section class="row main-image">
-        <div class="col-md-12">
-          <picture>
-            <source media="(min-width: 706px)"
-                    srcset="images/Snorlax_Birthday_Cake-900large.jpg">
-            <source media="(min-width: 476px)"
-                    srcset="images/Snorlax_Birthday_Cake-705med.jpg">
-            <img class="img-responsive" src="images/Snorlax_Birthday_Cake-475small.jpg" alt="Snorlax on a cake">
-          </picture>
+        <div class="col-md-12 carousel slide" id="carousel" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <a href=>
+                <img src="images/resume.PNG" alt="Resumé">
+              </a>
+            </div>
+            <div class="item">
+              <a href="">
+                <img src="images/Neighborhood-map.PNG" alt="Google Maps">
+              </a>
+            </div>
+            <div class="item">
+              <a href=>
+              <img src="images/Mockup.png" alt="Game Screenshot">
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </section>
+      <br>
 
       <section class="row title">
         <div class="col-md-12">
-          <h2 class="content-title">Gym Badges</h2>
+          <h2 class="content-title">Projects</h2>
         </div>
       </section>
 
       <footer class="row footer">
         <section class="col-md-4 content">
           <a data-target="#boulder" data-toggle="modal">
-            <img src="images/1boulder.png" alt="Boulder Badge" class="content-picture">
-            <p class="project">Boulder</p>
+            <br>
+            <img src="images/resume.PNG" alt="Resume Image" class="content-picture">
+            <p class="project">Resume</p>
           </a>
         </section>
         <section class="col-md-4 content">
           <a data-target="#cascade" data-toggle="modal">
-            <img src="images/2cascade.png" alt="Cascade Badge" class="content-picture">
-            <p class="project">Cascade</p>
+            <br>
+            <img src="images/Neighborhood-map.PNG" alt="Google Maps" class="content-picture">
+            <p class="project">Neighborhood Map</p>
           </a>
         </section>
         <section class="col-md-4 content">
           <a data-target="#thunder" data-toggle="modal">
-            <img src="images/3thunder.png" alt="Thunder Badge" class="content-picture">
-            <p class="project">Thunder</p>
+            <br>
+            <img src="images/Mockup.png" alt="Game Screenshot" class="content-picture">
+            <p class="project">OW-Fight</p>
           </a>
         </section>
       </footer>
-
-      <aside class="row aside">
-        <div class="col-md-12">
-          <p>
-            <a href="https://www.flickr.com/photos/x1brett/6815060866">“Snorlax Birthday Cake”</a>
-            by
-            <a href="https://www.flickr.com/people/x1brett/">brett jordan</a>
-            is licensed under
-            <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>
-          </p>
-          <p>
-            <a href="http://stegriff.co.uk/content/badges/">“Gym Badges”</a>
-            by
-            <a href="http://stegriff.co.uk/">Stephen Griffiths</a>
-            are licensed under
-            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
-          </p>
-        </div>
-      </aside>
 
       <!-- Modal 1-->
       <div class="modal fade" id="boulder" tabindex="-1" role="dialog" aria-labelledby="boulder-title" aria-hidden="true">
@@ -138,7 +151,8 @@
           </div>
         </div>
       </div>
-
     </div>
+
+
   </body>
 </html>

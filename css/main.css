@@ -3,8 +3,33 @@
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: "Press Start 2P", cursive;
-  background-color: #b3f0ff;
+  font-family: "Zilla Slab", serif;
+  color: #efefef;
+  background-color: #2e3033;
+}
+
+.carousel {
+  margin-top: 15px;
+}
+
+ol,
+.glyphicon {
+  background-color: transparent;
+}
+
+ol.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  background: #637da5;
+  float: right;
 }
 
 /* Container Controls */
@@ -14,11 +39,6 @@
   flex-flow: row wrap;
 }
 
-/* Bootstrap Controls*/
-.modal-files {
-  font-family: sans-serif;
-}
-
 /* Image controls */
 .main-image {
   max-width: 800px;
@@ -26,16 +46,6 @@
   width: 100%;
   margin: 25px auto 0;
   justify-content: center;
-}
-
-.logo {
-  max-width: 100px;
-  min-width: 100px;
-  margin: 10px 0 0 10px;
-}
-
-.img-responsive {
-  margin-bottom: 15px;
 }
 
 /* Title controls */
@@ -58,12 +68,15 @@
 }
 
 .content-picture {
-  max-width: 200px;
-  max-height: 200px;
+  vertical-align: text-bottom;
+  max-width: 80%;
+  max-height: auto;
 }
 
 .project {
   padding: 5px;
+  font-size: 25px;
+  vertical-align: text-bottom;
 }
 
 /* Aside controls */
