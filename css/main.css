@@ -5,7 +5,15 @@
   box-sizing: border-box;
   font-family: "Zilla Slab", serif;
   color: #efefef;
+}
+
+.background {
   background-color: #2e3033;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
 }
 
 .carousel {
@@ -28,8 +36,21 @@ ol.carousel-indicators {
 
 ol.carousel-indicators li,
 ol.carousel-indicators li.active {
-  background: #637da5;
+  border: 0;
+  background: #83bfc1;
   float: right;
+}
+
+ol.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+ol.carousel-indicators li.active {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
 
 /* Container Controls */
@@ -50,9 +71,20 @@ ol.carousel-indicators li.active {
 
 /* Title controls */
 .title {
-  margin-bottom: 10px;
-  border-bottom: 2px lightgrey solid;
   justify-content: space-between;
+  border-bottom: 2px lightgrey solid;
+}
+
+.name {
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  vertical-align: bottom;
+  padding-bottom: 0;
+  padding-top: 15px;
+  margin: 0;
 }
 
 /* Content Controls*/
@@ -60,23 +92,23 @@ ol.carousel-indicators li.active {
   text-align: center;
   margin: 10px;
   padding: 5px;
-  max-width: 33%;
   min-width: 210px;
   flex: 1;
   box-shadow: 2px 2px 2px 2px #ccc;
   cursor: pointer;
 }
 
+.content:hover {
+  background-color: #7f8082;
+}
+
 .content-picture {
-  vertical-align: text-bottom;
   max-width: 80%;
-  max-height: auto;
 }
 
 .project {
   padding: 5px;
   font-size: 25px;
-  vertical-align: text-bottom;
 }
 
 /* Aside controls */

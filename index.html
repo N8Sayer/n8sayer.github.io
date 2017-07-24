@@ -14,145 +14,134 @@
     <script src="js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="container">
-      <header class="row title">
-        <div class="col-md-8">
-          <h1>Nate Sargent</h1>
-        </div>
-        <div class="col-md-4 text-right">
-          <h3>Front-End Web Developer</h3>
-        </div>
-      </header>
+    <div class="background">
+      <div class="container">
+        <header class="row title">
+          <div class="col-md-8 name">
+            <h1>Nate Sargent</h1>
+          </div>
+          <div class="col-md-4 text-right job-title">
+            <h3>Front-End Web Developer</h3>
+          </div>
+        </header>
 
-      <section class="row main-image">
-        <div class="col-md-12 carousel slide" id="carousel" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
-          </ol>
+        <section class="row main-image">
+          <div class="col-md-12 carousel slide" id="carousel" data-ride="carousel">
 
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <a href=>
-                <img src="images/resume.PNG" alt="Resumé">
-              </a>
-            </div>
-            <div class="item">
-              <a href="">
-                <img src="images/Neighborhood-map.PNG" alt="Google Maps">
-              </a>
-            </div>
-            <div class="item">
-              <a href=>
-              <img src="images/Mockup.png" alt="Game Screenshot">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="item active">
+                <a href="http://www.natesargent.com/frontend-nanodegree-resume/">
+                  <img src="images/resume.PNG" alt="Resumé">
+                </a>
+              </div>
+              <div class="item">
+                <a href="http://www.natesargent.com/Neighborhood-map/">
+                  <img src="images/Neighborhood-map.PNG" alt="Google Maps">
+                </a>
+              </div>
+              <div class="item">
+                <a href="http://www.natesargent.com/OW-Fight/battle/battle.html">
+                  <img src="images/Mockup.png" alt="Game Screenshot">
+                </a>
+              </div>
             </div>
           </div>
-
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </section>
-      <br>
-
-      <section class="row title">
-        <div class="col-md-12">
-          <h2 class="content-title">Projects</h2>
-        </div>
-      </section>
-
-      <footer class="row footer">
-        <section class="col-md-4 content">
-          <a data-target="#boulder" data-toggle="modal">
-            <br>
-            <img src="images/resume.PNG" alt="Resume Image" class="content-picture">
-            <p class="project">Resume</p>
-          </a>
         </section>
-        <section class="col-md-4 content">
-          <a data-target="#cascade" data-toggle="modal">
-            <br>
-            <img src="images/Neighborhood-map.PNG" alt="Google Maps" class="content-picture">
-            <p class="project">Neighborhood Map</p>
-          </a>
-        </section>
-        <section class="col-md-4 content">
-          <a data-target="#thunder" data-toggle="modal">
-            <br>
-            <img src="images/Mockup.png" alt="Game Screenshot" class="content-picture">
-            <p class="project">OW-Fight</p>
-          </a>
-        </section>
-      </footer>
 
-      <!-- Modal 1-->
-      <div class="modal fade" id="boulder" tabindex="-1" role="dialog" aria-labelledby="boulder-title" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content modal-files">
-            <div class="modal-header">
-              <h4 class="modal-title" id="boulder-title">Resume</h4>
-            </div>
-            <div class="modal-body">
-              <a href="http://www.natesargent.com/frontend-nanodegree-resume/">
-                <img class="img-responsive center-block" src="images/resume.PNG" alt="Boulder Badge">
-                <p class="modal-text">This was one of my first projects in this class. It's my updated resume too.</p>
-              </a>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <section class="row title">
+          <div class="col-md-12">
+            <h2 class="content-title">Projects</h2>
+          </div>
+        </section>
+
+        <footer class="row footer">
+          <section class="col-md-4 content">
+            <a data-target="#boulder" data-toggle="modal">
+              <br>
+              <img src="images/resume.PNG" alt="Resume Image" class="content-picture">
+              <p class="project">Resume</p>
+            </a>
+          </section>
+          <section class="col-md-4 content">
+            <a data-target="#cascade" data-toggle="modal">
+              <br>
+              <img src="images/Neighborhood-map.PNG" alt="Google Maps" class="content-picture">
+              <p class="project">Neighborhood Map</p>
+            </a>
+          </section>
+          <section class="col-md-4 content">
+            <a data-target="#thunder" data-toggle="modal">
+              <br>
+              <img src="images/Mockup.png" alt="Game Screenshot" class="content-picture">
+              <p class="project">OW-Fight</p>
+            </a>
+          </section>
+        </footer>
+
+        <!-- Modal 1-->
+        <div class="modal fade" id="boulder" tabindex="-1" role="dialog" aria-labelledby="boulder-title" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content modal-files">
+              <div class="modal-header">
+                <h4 class="modal-title" id="boulder-title">Resume</h4>
+              </div>
+              <div class="modal-body">
+                <a href="http://www.natesargent.com/frontend-nanodegree-resume/">
+                  <img class="img-responsive center-block" src="images/resume.PNG" alt="Boulder Badge">
+                  <p class="modal-text">This was one of my first projects in this class. It's my updated resume too.</p>
+                </a>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Modal 2-->
-      <div class="modal fade" id="cascade" tabindex="-1" role="dialog" aria-labelledby="cascade-title" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title" id="cascade-title">Neighborhood Map</h4>
-            </div>
-            <div class="modal-body">
-              <a href="http://www.natesargent.com/Neighborhood-map/">
-                <img class="img-responsive center-block" src="images/Neighborhood-map.PNG" alt="Cascade Badge">
-                <p class="modal-text">This was my second to last project for Udacity. It integrates Google Maps API, Flickr API, and uses Knockout JS for data handling and live updates.</p>
-              </a>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <!-- Modal 2-->
+        <div class="modal fade" id="cascade" tabindex="-1" role="dialog" aria-labelledby="cascade-title" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="cascade-title">Neighborhood Map</h4>
+              </div>
+              <div class="modal-body">
+                <a href="http://www.natesargent.com/Neighborhood-map/">
+                  <img class="img-responsive center-block" src="images/Neighborhood-map.PNG" alt="Cascade Badge">
+                  <p class="modal-text">This was my second to last project for Udacity. It integrates Google Maps API, Flickr API, and uses Knockout JS for data handling and live updates.</p>
+                </a>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Modal 3-->
-      <div class="modal fade" id="thunder" tabindex="-1" role="dialog" aria-labelledby="thunder-title" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title" id="thunder-title">OW Fight</h4>
-            </div>
-            <div class="modal-body">
-              <a href="http://www.natesargent.com/OW-Fight/battle/battle.html">
-                <img class="img-responsive center-block" src="images/Mockup.png" alt="Thunder Badge">
-                <p class="modal-text">This is my project to build a Pokemon-like game using Overwatch pixel sprite attributes and stats.</p>
-              </a>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <!-- Modal 3-->
+        <div class="modal fade" id="thunder" tabindex="-1" role="dialog" aria-labelledby="thunder-title" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="thunder-title">OW Fight</h4>
+              </div>
+              <div class="modal-body">
+                <a href="http://www.natesargent.com/OW-Fight/battle/battle.html">
+                  <img class="img-responsive center-block" src="images/Mockup.png" alt="Thunder Badge">
+                  <p class="modal-text">This is my project to build a Pokemon-like game using Overwatch pixel sprite attributes and stats.</p>
+                </a>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
   </body>
 </html>

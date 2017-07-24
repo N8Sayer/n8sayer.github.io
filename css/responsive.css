@@ -1,24 +1,70 @@
-@media screen and (max-width: 475px) {
-  .footer, .content-title {
-    justify-content: center;
-  }
-
-  .title {
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 476px) and (max-width: 705px) {
-  .footer, .content-title {
-    justify-content: space-around;
-  }
-}
-
 @media screen and (min-width: 706px) {
+  .container {
+    padding-left: auto;
+    padding-right: auto;
+  }
   .row {
     max-width: 1200px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width: 705px) {
+  .title {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 579px) {
+  .carousel,
+  .content-title {
+    display: flex;
+  }
+
+  .content-title {
+    text-align: left;
+  }
+
+  .content {
+    justify-content: space-between;
+  }
+
+  .row {
     padding-left: auto;
     padding-right: auto;
     margin: 0;
+  }
+
+  .title {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 509px) {
+  .content {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .carousel,
+  .content-title {
+    display: none;
+  }
+
+  .row {
+    padding-left: auto;
+    padding-right: auto;
+    margin: 0;
+  }
+
+  .title {
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .footer, .content-title {
+    justify-content: space-between;
   }
 }
