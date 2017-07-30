@@ -9,13 +9,16 @@
   }
 }
 
-@media screen and (min-width: 580px) and (max-width: 705px) {
-  .title {
+@media screen and (min-width: 563px) and (max-width: 705px) {
+  header .title {
     justify-content: space-between;
   }
 }
 
-@media screen and (min-width: 520px) and (max-width: 579px) {
+@media screen and (min-width: 520px) and (max-width: 562px) {
+  header .title {
+    justify-content: left;
+  }
   .carousel,
   .content-title {
     display: flex;
@@ -40,10 +43,11 @@
   }
 }
 
-@media screen and (max-width: 509px) {
+@media screen and (max-width: 519px) {
   .content {
     justify-content: center;
     margin: 0;
+    flex: 1 0 100%;
   }
 
   .carousel,
