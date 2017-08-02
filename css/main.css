@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Zilla Slab", serif;
   color: #efefef;
+  background-color: #2e3033;
 }
 
 .background {
@@ -103,6 +104,10 @@ ol.carousel-indicators li.active {
   flex: 1;
   box-shadow: 2px 2px 2px 2px #ccc;
   cursor: pointer;
+}
+
+.content a p {
+  background-color: inherit;
 }
 
 .content:hover {
