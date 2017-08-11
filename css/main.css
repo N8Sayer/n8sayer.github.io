@@ -68,6 +68,10 @@ ol.carousel-indicators li.active {
   background-color: #2e3033;
 }
 
+.modal-body img {
+  background-size: 85%;
+}
+
 /* Image controls */
 .main-image {
   max-width: 800px;
@@ -104,6 +108,7 @@ ol.carousel-indicators li.active {
   flex: 1;
   box-shadow: 2px 2px 2px 2px #ccc;
   cursor: pointer;
+  transition: background-color .5s ease-out .1s;
 }
 
 .content a p {
@@ -111,6 +116,7 @@ ol.carousel-indicators li.active {
 }
 
 .content:hover {
+  transition: background-color .5s ease-in .1s;
   background-color: #7f8082;
 }
 
