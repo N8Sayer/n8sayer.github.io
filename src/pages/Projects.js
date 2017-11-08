@@ -9,11 +9,12 @@ const Projects = props => {
       url: 'http://www.cab-ease.com',
       description: 'This is a project I designed for a client which runs entirely on top of a Google Sheet operating as it’s back-end database, as requested by the client.',
       image: './src/images/cabease.png'
-    },{
+    },
+    {
       title: 'Google Maps API',
       url: 'http://www.natesargent.com/Neighborhood-map/',
       description: 'This is a project I completed for my Udacity NanoDegree which utilizes Knockout.js, Google Maps API, and Flickr API',
-      image: './src/images/maps.PNG'
+      image: './src/images/maps.png'
     },
     {
       title: 'Overwatch Fight',
