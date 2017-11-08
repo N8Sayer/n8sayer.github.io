@@ -1,179 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio: Nate Sargent</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="css/responsive.css" rel="stylesheet">
-
+    <title>Nate Sargent</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/48938155eb24b4ccdde09426066869504c6dab3c/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafrex/spa-github-pages
+      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+      // ----------------------------------------------------------------------
+      // This script checks to see if a redirect is present in the query string
+      // and converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+          });
+          if (q.p !== undefined) {
+            window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + (q.p || '') +
+              (q.q ? ('?' + q.q) : '') +
+              l.hash
+            );
+          }
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
 
   </head>
   <body>
-    <div class="background">
-      <div class="container">
-        <header class="row title">
-          <div class="col-md-8 name">
-            <h1>Nate Sargent</h1>
-          </div>
-          <div class="col-md-4 text-right job-title">
-            <h3>Front-End Web Developer</h3>
-          </div>
-        </header>
-
-        <section class="row main-image">
-          <div class="col-md-12 carousel slide" id="carousel" data-ride="carousel">
-
-            <ol class="carousel-indicators">
-              <li data-target="#carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel" data-slide-to="1"></li>
-              <li data-target="#carousel" data-slide-to="2"></li>
-              <li data-target="#carousel" data-slide-to="3"></li>
-            </ol>
-
-            <div class="carousel-inner">
-              <div class="item active">
-                <a href="http://www.natesargent.com/frontend-nanodegree-resume/">
-                  <img src="images/resume.PNG" alt="Resumé">
-                </a>
-              </div>
-              <div class="item">
-                <a href="http://www.natesargent.com/Neighborhood-map/">
-                  <img src="images/Neighborhood-map.PNG" alt="Google Maps">
-                </a>
-              </div>
-              <div class="item">
-                <a href="http://www.natesargent.com/OW-Fight/battle/battle.html">
-                  <img src="images/Mockup.png" alt="Game Screenshot">
-                </a>
-              </div>
-              <div class="item">
-                <a href="http://www.natesargent.com/demo-page/demo.html">
-                  <img src="images/Responsive-demo.png" alt="Realty Website">
-                </a>
-            </div>
-          </div>
-        </section>
-
-        <section class="row title">
-          <div class="col-md-12">
-            <h2 class="content-title">Projects</h2>
-          </div>
-        </section>
-
-        <footer class="row footer">
-          <section class="col-md-12 content">
-            <a data-target="#boulder" data-toggle="modal">
-              <br>
-              <img src="images/resume.PNG" alt="Resume Image" class="content-picture">
-              <p class="project">Resume</p>
-            </a>
-          </section>
-          <section class="col-md-12 content">
-            <a data-target="#cascade" data-toggle="modal">
-              <br>
-              <img src="images/Neighborhood-map.PNG" alt="Google Maps" class="content-picture">
-              <p class="project">Neighborhood Map</p>
-            </a>
-          </section>
-          <section class="col-md-12 content">
-            <a data-target="#thunder" data-toggle="modal">
-              <br>
-              <img src="images/Mockup.png" alt="Game Screenshot" class="content-picture">
-              <p class="project">OW-Fight</p>
-            </a>
-          </section>
-          <section class="col-md-12 content">
-            <a data-target="#rainbow" data-toggle="modal">
-              <br>
-              <img src="images/Responsive-demo-200tiny.png" alt="Realty Website" class="content-picture">
-              <p class="project">Responsive Demo</p>
-            </a>
-          </section>
-        </footer>
-
-        <!-- Modal 1-->
-        <div class="modal fade" id="boulder" tabindex="-1" role="dialog" aria-labelledby="boulder-title" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content modal-files">
-              <div class="modal-header">
-                <h4 class="modal-title" id="boulder-title">Resume</h4>
-              </div>
-              <div class="modal-body">
-                <a href="http://www.natesargent.com/frontend-nanodegree-resume/">
-                  <img class="img-responsive center-block" src="images/resume.PNG" alt="Resume Image">
-                  <p class="modal-text">This was one of my first projects in this class. It's my updated resume too.</p>
-                </a>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Modal 2-->
-        <div class="modal fade" id="cascade" tabindex="-1" role="dialog" aria-labelledby="cascade-title" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title" id="cascade-title">Neighborhood Map</h4>
-              </div>
-              <div class="modal-body">
-                <a href="http://www.natesargent.com/Neighborhood-map/">
-                  <img class="img-responsive center-block" src="images/Neighborhood-map.PNG" alt="Google Maps">
-                  <p class="modal-text">This was my second to last project for Udacity. It integrates Google Maps API, Flickr API, and uses Knockout JS for data handling and live updates.</p>
-                </a>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Modal 3-->
-        <div class="modal fade" id="thunder" tabindex="-1" role="dialog" aria-labelledby="thunder-title" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title" id="thunder-title">OW Fight</h4>
-              </div>
-              <div class="modal-body">
-                <a href="http://www.natesargent.com/OW-Fight/battle/battle.html">
-                  <img class="img-responsive center-block" src="images/Mockup.png" alt="Game Screenshot">
-                  <p class="modal-text">This is my project to build a Pokemon-like game using Overwatch pixel sprites, attributes, and stats.</p>
-                </a>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Modal 4-->
-        <div class="modal fade" id="rainbow" tabindex="-1" role="dialog" aria-labelledby="cascade-title" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title" id="cascade-title">Responsive Demo</h4>
-              </div>
-              <div class="modal-body">
-                <a href="http://www.natesargent.com/demo-page/demo.html">
-                  <img class="img-responsive center-block" src="images/Responsive-demo-500small.png" alt="Responsive Demo">
-                  <p class="modal-text">This is a fully responsive page I mocked up to demo for a client with a realty business.</p>
-                </a>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <div id="root"></div>
+    <!-- single page app in bundle.js -->
+    <script src="/build/bundle.js"></script>
   </body>
 </html>

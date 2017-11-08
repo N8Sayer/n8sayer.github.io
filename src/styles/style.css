@@ -1,0 +1,103 @@
+body {
+  background-color: #4a5e6d;
+}
+.container-fluid {
+  padding: 0;
+}
+.row {
+  margin: 0;
+}
+main {
+  min-height: 100%;
+}
+.full-height {
+  height: 95vh;
+}
+.full-width {
+  width: 100vw;
+}
+.min-width {
+  min-width: 150px;
+}
+.navbar {
+  padding: 0;
+}
+.list-group-item {
+  transition: background-color 0.3s ease;
+  background-color: #577590;
+  color: black;
+  border: 1px solid #aaa;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+.list-group-item:hover {
+  transition:  background-color 0.3s ease;
+  background-color: #5A6C7A;
+  color: #ccc;
+}
+li a {
+  color: black;
+}
+li a:hover {
+  color: #ccc;
+  text-decoration-color: #ead954;
+}
+.resume-page {
+  overflow: hidden;
+}
+.resume-left,
+.resume-right {
+  float: left;
+  padding: 10px 20px 10px 20px;
+}
+.resume-page .resume-left span,
+.resume-page .resume-right span {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+}
+.resume-left span {
+  color: #ccc;
+}
+.resume-right span {
+  color: black;
+}
+.footer {
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  max-width: 100%;
+  bottom: 0;
+  text-align: right;
+  background-color: #ccc;
+}
+article {
+  margin-bottom: 40px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  background-color: #5A6C7A;
+  border-radius: 45;
+}
+article img {
+  max-height: 350px;
+  max-width: 100%;
+}
+article p {
+  color: white;
+  padding-top: 10px;
+}
+article:hover {
+  transition: background-color 0.3s ease;
+  background-color: #39454D;
+}
+a:hover {
+  text-decoration: none;
+}
+.col-md-10 p {
+  color: #ccc;
+}
+.landing-text {
+  padding: 15px 20px 15px 20px;
+  font-size: 25px;
+}
