@@ -13,7 +13,7 @@ const Projects = props => {
       title: 'Google Maps API',
       url: 'http://www.natesargent.com/Neighborhood-map/',
       description: 'This is a project I completed for my Udacity NanoDegree which utilizes Knockout.js, Google Maps API, and Flickr API',
-      image: './src/images/maps.png'
+      image: './src/images/maps.PNG'
     },
     {
       title: 'Overwatch Fight',
