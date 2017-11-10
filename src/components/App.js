@@ -5,6 +5,7 @@ import Nav from './navigation';
 import Landing from '../pages/Landing';
 import Resume from '../pages/Resume';
 import Projects from '../pages/Projects';
+import GDrive from '../pages/GDrive';
 
 export default function App() {
   return (
@@ -18,7 +19,7 @@ export default function App() {
           <Route exact path="/" component={Landing} />
           <Route path="/resume" component={Resume} />
           <Route path='/projects' component={Projects} />
-          {/* <Route component={PageNotFound} /> */}
+          <Route path='/gdrive' component={GDrive} />
         </Switch>
       </div>
     </div>

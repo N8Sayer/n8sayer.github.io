@@ -19,6 +19,9 @@ const Nav = () => {
       <a href='https://github.com/N8Sayer'>
         <li className='list-group-item'>GitHub</li>
       </a>
+      <Link to='/gdrive'>
+        <li className='list-group-item'>Google Apps Script</li>
+      </Link>
     </ul>
   );
 };
