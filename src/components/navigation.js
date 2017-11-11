@@ -11,7 +11,10 @@ const Nav = () => {
         <li className='list-group-item'>Resume</li>
       </Link>
       <Link to='/projects'>
-        <li className='list-group-item'>Projects</li>
+        <li className='list-group-item'>Web Projects</li>
+      </Link>
+      <Link to='/gdrive'>
+        <li className='list-group-item'>Apps Script Projects</li>
       </Link>
       <a href='https://www.upwork.com/freelancers/~0184df6f716ff64f05'>
         <li className='list-group-item'>Upwork</li>
@@ -19,9 +22,6 @@ const Nav = () => {
       <a href='https://github.com/N8Sayer'>
         <li className='list-group-item'>GitHub</li>
       </a>
-      <Link to='/gdrive'>
-        <li className='list-group-item'>Google Apps Script</li>
-      </Link>
     </ul>
   );
 };

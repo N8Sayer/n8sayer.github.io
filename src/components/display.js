@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 const Display = props => {
   const projects = props.projects.map((project, index) => {
     return (
-      <article>
-        <a key={index} href={project.url}>
-          <p>{project.title}</p>
+      <article key={index}>
+        <a href={project.url}>
+          <h3>{project.title}</h3>
           <img src={project.image} />
           <p>{project.description}</p>
         </a>

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-const Landing = props => {
+const Landing = () => {
   const date = new Date();
   const year = date.getYear();
   const birthDate = new Date(1989,8,27);

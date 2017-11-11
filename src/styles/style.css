@@ -57,6 +57,7 @@ li a:hover {
   text-align: center;
   font-size: 25px;
 }
+h3,
 .resume-left span {
   color: #ccc;
 }
@@ -100,4 +101,20 @@ a:hover {
 .landing-text {
   padding: 15px 20px 15px 20px;
   font-size: 25px;
+}
+iframe {
+  background-color: #ccc;
+}
+.header {
+  background: #343B3F;
+  margin-bottom: 10px;
+}
+.header-content {
+  color: #ccc;
+}
+.header-img {
+  max-height: 100px;
+  max-width: 75px;
+  padding: 5px;
+  float: right;
 }
